@@ -1,0 +1,40 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+header {
+	background: url('../img/photo.png') no-repeat center top / cover;
+	height: 100vh;	
+}
+div {
+	position: relative;
+	box-sizing: border-box;
+}
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.container{
+	width: 1166px;
+	margin: 0 auto;
+}
+.room{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.pol{
+	position: absolute;
+	top:0;
+	width: 100%;
+	height: 100px;
+}
+.parrent{
+	position: relative;
+}
+.prosto{
+	position:absolute;
+	margin-top: 35px;
+}
